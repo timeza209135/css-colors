@@ -1,1 +1,29 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* พื้นหลัง 1: hsl(0, 100%, 70%)  พื้นหลัง 2: hsl(240, 100%, 70%) */
+    background: linear-gradient(to top right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+  }
+  
+  .box {
+    width: 214px;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 9px;
+    border-radius: 3px;
+    /* สีกล่อง */
+    background-color: hsla(0, 50%, 100%, 0.5);
+  }
+  
+  .box h2 {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
